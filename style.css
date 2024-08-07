@@ -1,0 +1,464 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+.header{
+    background-color: rgb(162, 249, 104);
+    display: flex;
+    position: relative;
+     
+
+}
+.header > .logo h2{
+    padding: 20px;
+    color: rgba(2, 3,0, 0.6)
+}
+.nav{
+    flex: 1;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    margin-right: 60px;
+    margin-top: 20px;
+    
+
+}
+.nav ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(17, 17, 16);
+}
+.nav ul li a:hover{
+    color: lightcoral;
+}
+.menu-icon{
+    font-size: 20px;
+    padding-left: 20px;
+    display: none;
+}
+.section{
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    /* border: 3px solid black; */
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+    /* position: relative; */
+    
+}
+.section h4{
+    color: gray;
+    padding: 5px;
+}
+.section a{
+    margin-left: 0;
+    text-decoration: none;
+}
+.section a button{
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+.section a button:hover{
+    /* background-clip: text; */
+    background-color:rgb(162, 249, 104); 
+}
+.section2{
+    position: relative;
+    width: 100%;
+}
+
+.section2 > .my{
+    width: 700px;
+    height: 500px;
+    /* position: absolute; */
+    margin-top:-350px;
+    margin-left: 100%;
+    border-radius: 10px;
+    transition: scale 400ms;
+}
+.section2:hover > .my{
+    /* scale: 120%; */
+}
+
+.section2 h3{
+    position: absolute;
+    width: 146%;
+    height: 327%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* border: 3px solid black; */
+    background-color: rgba(0, 0,0, 0.6);
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    margin-left: 100%;
+    margin-top: -73%;
+    border-radius: 10px;
+    font-size: 30px;
+    opacity: 0;
+    color: rgb(162, 249, 104);
+    transition: 0.8s;
+    overflow: hidden;
+    /* transition: scale 400ms; */
+     
+}
+.section2 h3:hover{
+    opacity: 1;
+    overflow: hidden;
+    /* scale: 120%; */
+
+}
+.about{
+    background-image: linear-gradient(45deg, #363D73, #2794B3);black;
+    height: 800px;
+    color: white;
+    display: flex;
+    position: relative;
+     
+}
+.about > .my-clo{
+    /* border: 3px solid white; */
+    width: 800px;
+    height: 600px;
+    padding-top: 200px;
+    padding-left: 50px;
+    /* text-align: center; */
+}
+.about > .my-clo p{
+    font-size: 18px;
+}
+.about img{
+    width: 350px;
+    height: 500px;
+    margin-left: 60%;
+    margin-top: 13%;
+    top: 0;
+    border-radius: 10px;
+    position: absolute;
+    transition: scale 300ms;
+
+}
+.about img:hover{
+    scale: 110%;
+}
+.my-clo2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.portfolio{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.portfolio2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+.portfolio > .box1,.box2,.box3,img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: scale 300ms;
+    /* background-color: #363D73; */
+    /* border: 3px solid black; */
+  
+}
+.portfolio > .box1,.box2,.box3,img:hover{
+    scale: 110%;
+
+}
+.portfolio2 > .box4,.box5,.box6,img{
+    width: 200px;
+    height: 200px;
+}
+.portfolio > .box1,.box2,.box3,h3,p{
+    text-align: center;
+}
+.portfolio   h3:hover{
+    color:rgb(162, 249, 104) ;
+    cursor: pointer;
+}
+.portfolio2 h3:hover{
+    color:rgb(162, 249, 104) ;
+    cursor: pointer;
+}
+.box-module{
+    display: flex;
+}
+
+.box-module > .content1{
+    background-color:rgb(162, 249, 104)  ;
+    width: 600px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 20px;
+    transition: scale 300ms;
+    
+}
+.box-module > .content1:hover{
+    scale: 110%;
+
+}
+.box-module > .content1, h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.box-module > .content1,.ph{
+     font-size: 17px;
+     padding-left: 20px;
+     padding-right: 20px;
+}
+.box-module > .content2{
+    background-color:rgb(162, 249, 104)  ;
+    width: 600px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 140px;
+    border-radius: 20px;
+    transition: scale 300ms;
+}
+.box-module > .content2:hover{
+    scale: 110%;
+
+}
+.box-module > .content2, h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.box-module > .content2,.ph{
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.project{
+    margin-top: 200px;
+    text-align: center;
+}
+.contact{
+    margin-top: 20px;
+    margin-left: 100px;
+    display: flex;
+    
+}
+.con{
+    text-align: center;
+    margin-top: 100px;
+}
+.contact form{
+    padding-top: 30px;
+}
+.contact form,input,label,textarea{
+     margin: 30px;
+}
+.contact input,textarea{
+    width: 400px;
+    padding: 20px;
+}
+.contact button{
+    margin: 30px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgb(162, 249, 104);
+}
+.contact button:hover{
+    background-clip: text;
+
+}
+.footer{
+    background-color: black;
+    height: 150px;
+    color: white;
+}
+.footer> .icon{
+    text-align: center;
+    padding-top: 40px;
+    
+}
+.footer> .icon,ion-icon{
+    padding-left: 20px;
+    font-size: 30px;
+}
+.footer ion-icon:hover{
+    color: rgb(162, 249, 104);
+    cursor: pointer;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.footer > .footer1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+  
+@media screen and (max-width:600px) {
+    .nav ul{
+        width: 100%;
+        position: absolute;
+        background-color: rgb(162, 249, 104);;
+        top: 70px;
+        right: 0;
+        z-index: 2;
+        
+    }
+    .nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 40px;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    .section{
+        width: 100%;
+        height: 300px;
+        /* background-color: rgb(223, 147, 147);  */
+        color: rgb(7, 7, 7);
+         margin-top: 0;
+         margin-left: 0;
+         margin-top: 20px;
+    }
+    .section2 > .my{
+        width: 500px;
+        height: 350px;
+        margin-left: 0;
+        margin-top: 20%;
+    }
+    .section2 h3{
+        width: 500px;
+        height: 350px;
+        margin-left: 0;
+        margin-top: 20%;
+        margin-left: 75px;
+    }
+    .section:hover h3{
+        opacity: 0;
+    }
+    .about{
+        background-image: linear-gradient(45deg, #363D73, #2794B3);black;
+        height: 700px;
+        color: white;
+        margin-top: 60%;
+        width: 100%;
+        
+         
+    }
+    .about > .my-clo{
+        /* border: 3px solid white; */
+        width: 600px;
+        height: 600px;
+        padding-top: 50px;
+        padding-left: 50px;
+        /* text-align: center; */
+    }
+    .about > .my-clo p{
+        font-size: 13px;
+    }
+    .about img{
+        width: 150px;
+        height: 200px;
+        margin-left: 30%;
+        margin-top: 65%;
+        top: 0;
+        border-radius: 10px;
+        transition: scale 300ms;
+    
+    }
+    .portfolio{
+        width: 100%;
+    }
+    .portfolio img{
+        width: 150px;
+        height: 200px;
+    }
+    .portfolio2 img{
+        width: 150px;
+        height: 200px;
+    }
+    .box-module{
+        display:inline-block;
+    }
+    .box-module > .content1{
+        background-color:rgb(162, 249, 104)  ;
+        width: 600px;
+        height: 400px;
+        margin-top: 50px;
+        margin-left: 50px;
+        border-radius: 20px;
+        
+    }
+    .box-module > .content2{
+        background-color:rgb(162, 249, 104)  ;
+        width: 600px;
+        height: 400px;
+        margin-top: 50px;
+        margin-left: 50px;
+        border-radius: 20px;
+        
+    }
+    .contact{
+        margin-top: 10px;
+        margin-left: 100px;
+        width: 100%;
+        
+    }
+    .contact form{
+        padding-top: 10px;
+    }
+    .contact form,input,label,textarea{
+        margin: 20px;
+   }
+   .contact input,textarea{
+    width: 300px;
+    padding: 10px;
+   }
+   .contact button{
+    margin: 20px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgb(162, 249, 104);
+}
+.footer{
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    color: white;
+}
+.footer> .icon,ion-icon{
+    padding-left: 20px;
+    font-size: 20px;
+}
+.footer1{
+    width: 100%;
+}
+  
+}
